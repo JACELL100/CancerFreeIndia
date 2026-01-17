@@ -240,7 +240,7 @@
             }
         }
         
-        // Initialize theme from localStorage
+        //  Initialize theme from localStorage
         (function() {
             const theme = localStorage.getItem('theme');
             if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -373,3 +373,4 @@
     {% block extra_js %}{% endblock %}
 </body>
 </html>
+
